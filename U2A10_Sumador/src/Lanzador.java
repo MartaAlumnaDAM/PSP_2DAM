@@ -34,7 +34,8 @@ public class Lanzador {
             
             try{
             
-                ProcessBuilder pb = new ProcessBuilder("java", "appr.U2A10_Sumador");
+                //ProcessBuilder pb = new ProcessBuilder("java", "appr.U2A10_Sumador");
+                ProcessBuilder pb = new ProcessBuilder("java", "U2A10_Sumador2");
                 pb.directory(new java.io.File("build/classes"));
                 
                 Process proceso = pb.start();
