@@ -26,7 +26,7 @@ public class U2A10_Sumador {
        while(contador < 2){
            
            try{
-                System.out.println("Introduce el numero " + (contador + 1) + ": ");
+                //System.out.println("Introduce el numero " + (contador + 1) + ": ");
            
                 if(contador == 0){
                     
